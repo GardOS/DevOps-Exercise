@@ -7,24 +7,20 @@ import static org.junit.Assert.fail;
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class AppTest
-{
+public class AppTest {
     @Test
-    public void assertIsTrue()
-    {
-        assertTrue( true );
+    public void assertIsTrue() {
+        assertTrue(true);
     }
 
     @Test
-    public void assertIsFalse()
-    {
-        assertFalse( false );
+    public void assertIsFalse() {
+        assertFalse(false);
     }
 
     @Test
     @Ignore
-    public void testWillFail()
-    {
+    public void testWillFail() {
         fail();
     }
 }
